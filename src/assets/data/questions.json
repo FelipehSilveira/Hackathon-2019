@@ -1,0 +1,104 @@
+{
+  "questions": [
+
+    {
+      "flashCardFront": "<img src='assets/imgs/agora.jpg' />",
+      "flashCardBack": "Agora",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Agora", "correct": true, "selected": false},
+        {"answer": "Amanhã", "correct": false, "selected": false},
+        {"answer": "Ontem", "correct": false, "selected": false}
+              ]
+    },
+    {
+      "flashCardFront": "<img src='assets/imgs/geografia.jpg' />",
+      "flashCardBack": "Geografia",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Matemática", "correct": false, "selected": false},
+        {"answer": "Geografia", "correct": true, "selected": false},
+        {"answer": "Inglês", "correct": false, "selected": false}
+      ]
+    },
+    {
+      "flashCardFront": "<img src='assets/imgs/estudar.jpg' />",
+      "flashCardBack": "Estudar",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Brincar", "correct": false, "selected": false},
+        {"answer": "Correr", "correct": false, "selected": false},
+        {"answer": "Estudar", "correct": true, "selected": false}
+      ]
+    },
+     {
+      "flashCardFront": "<img src='assets/imgs/branco.jpg' />",
+      "flashCardBack": "Branco",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Branco", "correct": true, "selected": false},
+        {"answer": "Azul", "correct": false, "selected": false},
+        {"answer": "Amarelo", "correct": false, "selected": false}
+      ]
+    },
+     {
+      "flashCardFront": "<img src='assets/imgs/outono.jpg' />",
+      "flashCardBack": "Outono",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Primavera", "correct": false, "selected": false},
+        {"answer": "Inverno", "correct": false, "selected": false},
+        {"answer": "Outono", "correct": true, "selected": false}
+      ]
+    },
+     {
+      "flashCardFront": "<img src='assets/imgs/nome.jpg' />",
+      "flashCardBack": "Qual é seu nome?",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Qual é seu nome?", "correct": true, "selected": false},
+        {"answer": "Onde?", "correct": false, "selected": false},
+        {"answer": "O que?", "correct": false, "selected": false}
+      ]
+    },
+     {
+      "flashCardFront": "<img src='assets/imgs/duracao.jpg' />",
+      "flashCardBack": "3 anos de duração",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": " 1 ano de duração", "correct": false, "selected": false},
+        {"answer": " 3 anos de duração", "correct": true, "selected": false},
+        {"answer": " Antes", "correct": false, "selected": false}
+      ]
+    },
+     {
+      "flashCardFront": "<img src='assets/imgs/fisica.jpg' />",
+      "flashCardBack": "Física",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Matemática", "correct": false, "selected": false},
+        {"answer": "Física", "correct": true, "selected": false},
+        {"answer": "Química", "correct": false, "selected": false}
+      ]
+    },
+        {
+      "flashCardFront": "<img src='assets/imgs/vermelho.jpg' />",
+      "flashCardBack": "Vermelho",
+      "flashCardFlipped": false,
+      "questionText": "O que significa o gesto ilustrado?",
+      "answers": [
+        {"answer": "Amarelo", "correct": false, "selected": false},
+        {"answer": "Rosa", "correct": false, "selected": false},
+        {"answer": "Vermelho", "correct": true, "selected": false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+
+ <ion-header>  <h3 align = "center" class = "ultra"> HandTalk </h3>
+  </ion-header>
+<ion-content >
+  
+  <ion-slides #slides>  
+
+    <ion-slide class="start-slide">
+     
+     <img class = "logo" src = "assets/imgs/icon2.png" >
+
+    <h2 align = "center" class = "omega">Quiz sobre Libras!</h2>
+    <h3 align = "center" class="master"> Versão βeta 0.0.1 </h3>
+  
+      <button ion-button color="primary" (click)="nextSlide()" round>Começar!</button>
+      <button ion-button color="primary" (click)="Material()" round  > Material de Apoio </button>
+      <h3 align= "center" class = omega> Hackathon 2019 - Code like a Girl </h3>
+      <h3 align = "center" class = master> Inatel + Facebook Developer Circles SRS </h3>
+
+    </ion-slide>
+
+    
+
+    <ion-slide *ngFor="let question of questions; let i = index;">
+      <h3 align="center"  >Questão {{i+1}} </h3>
+
+      
+      <ion-item no-lines>
+             
+        <flash-card [isFlipped]="question.flashCardFlipped">
+          <div class="flash-card-front" [innerHTML]="question.flashCardFront"></div>
+          <div class="flash-card-back" [innerHTML]="question.flashCardBack"></div>
+        </flash-card>
+      </ion-item>
+
+      <h3>{{question.questionText}}</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item *ngFor="let answer of question.answers; let i = index">
+          <ion-label>{{i+1}}.{{answer.answer}} </ion-label>
+          <ion-radio (click)="selectAnswer(answer, question)" [checked]="answer.selected" [disabled]="hasAnswered"></ion-radio>
+        </ion-item>
+
+      </ion-list>
+
+    </ion-slide>
+
+    <ion-slide>
+      <h2>Total de Acertos:{{score}}</h2>
+      <button (click)="restartQuiz()" align = "center" ion-button full color="primary" >Tentar Novamente
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
